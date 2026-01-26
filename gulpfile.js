@@ -98,6 +98,7 @@ function svgCopy() {
 function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.js', // можно добавить библиотеки
+        'app/js/navigation.js',
         'app/js/main.js'
     ])
         .pipe(errorHandler('JS Error'))
