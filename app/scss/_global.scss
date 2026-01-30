@@ -40,31 +40,21 @@ a {
 	padding: 0 15px;
 }
 
-.header__menu-item.white {
-	.header__menu-link {
-		&.active {
-			color: #B79C5F;
 
-			&::after {
+
+.header__menu-link {
+	&.active {
+		color: #B79C5F;
+
+		&::after {
+			width: 100%;
+			background-color: #B79C5F;
+
+			&:hover {
 				background-color: #B79C5F;
-				width: 0;
 
 			}
 		}
 
-
 	}
-}
-
-.header__menu-link {
-	&.active {
-		color: #79000F;
-
-		&::after {
-			width: 100%;
-		}
-	}
-
-
-
 }
