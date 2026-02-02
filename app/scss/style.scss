@@ -1810,7 +1810,6 @@ html {
     &__hero-image {
         position: relative;
         z-index: 2;
-        padding-right: 50px;
     }
 
     &__image-wrapper {
@@ -1818,8 +1817,7 @@ html {
         overflow: hidden;
         border-radius: 4px;
         border: 1px solid rgba(183, 156, 95, 0.3);
-
-
+        
         img {
             width: 100%;
             height: auto;
@@ -1981,7 +1979,7 @@ html {
 
         .about-page__section-title {
             color: #fff;
-
+            
             &::after {
                 left: 50%;
                 transform: translateX(-50%);
@@ -2039,6 +2037,18 @@ html {
         font-weight: 300;
     }
 
+    &__value-link {
+        color: #B79C5F;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(183, 156, 95, 0.3);
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+    }
+
     // Commitment Quote Section
     &__commitment {
         margin-bottom: 80px;
@@ -2086,6 +2096,19 @@ html {
             top: -30px;
             left: -10px;
             line-height: 1;
+        }
+    }
+
+    &__nonprofit-link {
+        color: #B79C5F;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(183, 156, 95, 0.4);
+        transition: all 0.3s ease;
+        font-style: normal;
+
+        &:hover {
+            color: #fff;
+            border-bottom-color: #fff;
         }
     }
 
@@ -2140,9 +2163,6 @@ html {
             gap: 50px;
             padding: 60px;
         }
-          &__hero-image {
-            padding-right: 0;
-        }
 
         &__title {
             font-size: 48px;
@@ -2161,8 +2181,6 @@ html {
         &__approach {
             padding: 60px;
         }
-
-      
     }
 }
 
